@@ -39,5 +39,11 @@ application {
 }
 
 release {
+    git {
+       requireBranch = 'master'
+    }
     pushReleaseVersionBranch = 'release'
+    preTagCommitMessage = "pre tag commit: "
+    tagCommitMessage = "tag commit: "
+    newVersionCommitMessage = "new version commit: "
 }
