@@ -1,3 +1,4 @@
+We add a new first line
 This is a test
 This is another test
 This line is great
